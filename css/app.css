@@ -55,7 +55,7 @@
 
   .img-container img {
     width: 100%;
-    height:auto;
+    max-height: 200px;
   }
 
   #top-section {
@@ -88,11 +88,6 @@ hr {
   padding-left: 1rem;
   padding-bottom: 1rem;
   text-align: left;
-}
-
-.img-container img {
-  max-height: 200px;
-  width: auto;
 }
 
 .img-container a {
