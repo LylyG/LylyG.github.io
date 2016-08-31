@@ -128,3 +128,7 @@ hr {
 .callout h4 {
   color: #333333;
 }
+
+.flex-video {
+  display: none;
+}
