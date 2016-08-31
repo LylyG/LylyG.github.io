@@ -33,33 +33,6 @@
   }
 }
 
-@media screen and (max-width: 39.9375em) and (orientation: landscape) {
-
-  .img-container img {
-    display: none;
-  }
-
-
-  .img-container  h1, h2, p{
-    text-align: left;
-  }
-
-
-  #top-section {
-    background: url(blue_background@2x.png) no-repeat;
-    color: white;
-    background-size: 100% 1em;
-  }
-
-  #top-section h1 {
-    font-size: 1.25rem;
-    text-align: center;
-  }
-
-  #top-section h2 {
-    text-align: center;
-  }
-}
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
