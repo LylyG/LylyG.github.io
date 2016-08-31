@@ -1,12 +1,21 @@
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .img-container img {
-    display: none;
+    width: 18em;
+    height: auto;
   }
 
+  .img-container {
+    width: 18em;
+    height: auto;
+    margin: auto;
+  }
+
+
   #top-section {
-    background-color: white;
-    color: #3F6897;
+    background: url(blue_background@2x.png) no-repeat;
+    color: white;
+    background-size: 100% 12em;
   }
 
   #top-section h1 {
