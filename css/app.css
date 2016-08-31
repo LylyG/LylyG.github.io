@@ -34,15 +34,9 @@
 }
 
 @media screen and (max-width: 39.9375em) and (orientation: landscape) {
-  .img-container {
-    width: 50%;
-    height: auto;
-    margin: auto;
-  }
 
   .img-container img {
-    width: 50%;
-    height: auto;
+    display: none;
   }
 
 
