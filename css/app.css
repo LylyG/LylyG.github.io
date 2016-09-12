@@ -1,5 +1,5 @@
 /* Small only */
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 39.9375em) and (orientation: portrait) {
   .img-container img {
     width: 18em;
     height: auto;
@@ -15,7 +15,6 @@
   #top-section {
     background: url(blue_background@2x.png) no-repeat;
     color: white;
-    background-size: 100% 12em;
   }
 
   #top-section h1 {
@@ -32,12 +31,22 @@
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .img-container img {
-    display: none;
+    max-width: 18em;
+    height: auto;
+  }
+
+  .img-container {
+    max-width: 18em;
+    height: auto;
+    margin: auto;
+  }
+
+  .img-container  h1, h2, p{
+    text-align: center;
   }
 
   #top-section {
-    background-color: white;
-    color: #3F6897;
+    color: white;
   }
 
   #top-section h1 {
@@ -95,6 +104,7 @@ hr {
 
 .img-container h1, h2, p {
   padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
   text-align: left;
 }
@@ -111,4 +121,8 @@ hr {
 
 .callout h4 {
   color: #333333;
+}
+
+.flex-video {
+  display: none;
 }
